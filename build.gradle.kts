@@ -7,18 +7,18 @@ plugins {
 buildscript {
 
     repositories {
-        google()
-        mavenCentral()
+        //google()
+       // mavenCentral()
 
         //We still use at least 1 dependency from there
         //noinspection JcenterRepositoryObsolete,GrDeprecatedAPIUsage
-        jcenter()
+      //  jcenter()
 
         //for local (before it is released). You don't need a line like this in your projects.
-        maven(url = "../../AndroidSdkMaven/maven/' ")
+        //maven(url = "../../AndroidSdkMaven/maven/' ")
 
         //for remote (after it is released). You do need a line like this in your projects.
-        maven(url = "https://raw.githubusercontent.com/Acuant/AndroidSdkMaven/main/maven/")
+       // maven(url = "https://raw.githubusercontent.com/Acuant/AndroidSdkMaven/main/maven/")
     }
 
     dependencies {

@@ -46,7 +46,7 @@ class FirstFragment : Fragment() {
 
         val listener = object : IAcuantPackageCallback {
             override fun onInitializeFailed(error: List<AcuantError>) {
-
+                Log.e("Acuant Error", error.toString())
             }
 
             override fun onInitializeSuccess() {

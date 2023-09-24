@@ -43,30 +43,24 @@ android {
 }
 
 dependencies {
-    //implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar", "*.aar"))))
+
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.9.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("androidx.navigation:navigation-fragment-ktx:2.5.3")
     implementation("androidx.navigation:navigation-ui-ktx:2.5.3")
-   // implementation(files("/Users/apple/Documents/Projects/ActuantCamera/app/libs/actuant-debug.aar"))
-    implementation(files("./libs/acuantcamera-debug.aar"))
-   // implementation(files("/Users/apple/Documents/Projects/ActuantCamera/app/libs/acuantfacecapture-debug.aar"))
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
-
-
-
-//    implementation("com.acuant:acuantcommon:11.6.0")
-//    implementation("com.acuant:acuantcamera:11.6.0")
-//    implementation("com.acuant:acuantimagepreparation:11.6.0")
-//    implementation("com.acuant:acuantdocumentprocessing:11.6.0")
-//    implementation("com.acuant:acuantechipreader:11.6.0")
-//    implementation("com.acuant:acuantipliveness:11.6.0")
-//    implementation("com.acuant:acuantfacematch:11.6.0")
-//    implementation("com.acuant:acuantfacecapture:11.6.0")
-//    implementation("com.acuant:acuantpassiveliveness:11.6.0")
+    implementation("com.acuant:acuantcommon:11.6.0")
+    implementation("com.acuant:acuantcamera:11.6.0")
+    implementation("com.acuant:acuantimagepreparation:11.6.0")
+    implementation("com.acuant:acuantdocumentprocessing:11.6.0")
+    implementation("com.acuant:acuantechipreader:11.6.0")
+    implementation("com.acuant:acuantipliveness:11.6.0")
+    implementation("com.acuant:acuantfacematch:11.6.0")
+    implementation("com.acuant:acuantfacecapture:11.6.0")
+    implementation("com.acuant:acuantpassiveliveness:11.6.0")
 }
